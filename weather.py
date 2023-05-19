@@ -42,6 +42,15 @@ def any_city():
          print(value1.upper())
          coordinates(value1,key1)
          i=i+1
+def command_line_inputs():
+     n=len(sys.argv)
+     i=0
+     while i<n:
+          city_name=str(sys.argv[1: ])
+          country_code=" "
+          coordinates(city_name,country_code)
+          i+=n
+          
 
 main()
 
