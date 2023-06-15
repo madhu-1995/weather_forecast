@@ -3,6 +3,8 @@ import requests
 import json
 import country_list1
 import random
+import time
+start=time.time()
 def main():
         city_name=input("City Name: ")
         country_code=input("ISO Country code: ")
@@ -56,4 +58,6 @@ def command_line_inputs():
           
 
 main()
+end-time.time()
+print(end-start)
 
